@@ -1,0 +1,9 @@
+package component:greeter@0.1.0;
+
+interface greet {
+    get-greeting-message: func() -> string;
+}
+
+world example {
+    export greet;
+}

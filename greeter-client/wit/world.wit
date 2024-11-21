@@ -1,0 +1,5 @@
+package docs:app;
+world app {
+    import component:greeter/greet@0.1.0;
+    import component:even-odd/random-demo@0.1.0;
+}
